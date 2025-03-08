@@ -11,9 +11,10 @@ permalink: /2_SITL_Extra/
 ---
 
 **Contents:**
-- [Ardupilot Gazebo Plugin Installation](https://github.com/komxun/ardupilot-ros2-sitl/blob/main/2_SITL_Extra.md#ardupilot-ignition-gazebo-plugin)
-- [ROS 2 Humble Installation](https://github.com/komxun/ardupilot-ros2-sitl/blob/main/2_SITL_Extra.md#ros2-humble)
-- [MAVROS and MAVLINK Installation](https://github.com/komxun/ardupilot-ros2-sitl/blob/main/2_SITL_Extra.md#mavros-and-mavlink)
+- Ardupilot Gazebo Plugin Installation
+- ROS 2 Humble Installation
+- MAVROS and MAVLINK Installation
+
 
 > **⚠️ CAUTION**: It is strongly recommended to follow instructions from the **official page** for the most up-to-date information!
 
