@@ -67,7 +67,9 @@ sim_vehicle.py -w
 ```
 > This should come with `MAVProxy` installed
 
-![[Pasted image 20250307091809.png]]
+![Pasted image 20250307091809](https://github.com/user-attachments/assets/43ee2f69-a2c2-4846-89a9-bf4b22aeda8e)
+
+
 - **Left**: `MAVProxy` command prompt / **Right**: `ArduCopter` instance
 - With **MAVProxy GCS command prompt**
 	- To open the map: `module load map`
@@ -103,9 +105,12 @@ chmod +x ./QGroundControl.AppImage
 
 ## Why Gazebo Fortress?
 - For Ubuntu 22.04, **Gazebo Harmonic** is recommended. However, **Gazebo Fortress** is recommended for the use with **ROS2 Humble**.
-![[Pasted image 20250304090430.png]]
+![Pasted image 20250304090430](https://github.com/user-attachments/assets/213beb87-2a91-4b24-b6c8-552cd43edd7d)
+
 (Ref: [Getting Started with Gazebo? — Gazebo ionic documentation](https://gazebosim.org/docs/latest/getstarted/))
-![[Pasted image 20250303155456.png]]
+
+![Pasted image 20250303155456](https://github.com/user-attachments/assets/bc543158-70a4-43b9-9195-3e19dfd52373)
+
 (Ref: [Installing Gazebo with ROS — Gazebo ionic documentation](https://gazebosim.org/docs/latest/ros_installation/))
 
 ---
