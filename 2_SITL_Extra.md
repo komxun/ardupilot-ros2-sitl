@@ -226,7 +226,7 @@ Now the `ros2 topic list` can see the `mavlink` messages published from the sitl
 ```shell
 ros2 topic echo /mavros/battery
 ```
-![Pasted image 20250307104929](https://github.com/user-attachments/assets/e1cbef0d-e5c8-4e05-84ac-75a78acc8dbd)
+![image](https://github.com/user-attachments/assets/14257bc9-7bc8-417f-b35c-0b9fa69b1f68)
 
 
 - Terminal 0 (black) : ArduCopter (running)
