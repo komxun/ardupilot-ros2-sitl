@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SITL Fundamental Components
-permalink: /1_SITL_Fundamental/
+permalink: /1_SITL_Fundamantal/
 ---
 
 # Navigation
