@@ -12,9 +12,10 @@ permalink: /1_SITL_Fundamental/
 
 
 **Contents:**
-- [[1. SITL Fundamental Components#ArduPilot + MAVProxy Installation|ArduPilot and MAVProxy Installation]]
-- [[1. SITL Fundamental Components#Q-GroundControl Installation|Q-GroundControl Installation]]
-- [[1. SITL Fundamental Components#Gazebo Installation|Gazebo Installation]]
+
+- [ArduPilot and MAVProxy Installation](https://github.com/komxun/ardupilot-ros2-sitl/edit/main/1_SITL_Fundamantal.md#ardupilot--mavproxy-installation)
+- [Q-GroundControl Installation](https://github.com/komxun/ardupilot-ros2-sitl/edit/main/1_SITL_Fundamantal.md#q-groundcontrol-installation)
+- [Gazebo Installation](https://github.com/komxun/ardupilot-ros2-sitl/edit/main/1_SITL_Fundamantal.md#gazebo-installation)
 
 > **⚠️ CAUTION**: It is strongly recommended to follow instructions from the **official page** for the most up-to-date information!
 ---
