@@ -7,7 +7,7 @@ permalink: /2_SITL_Extra/
 # Navigation
 - [Home](README.md)
 - [0. Linux Installation](0_Linux_Installation.md)
-- [1. SITL Fundamental Components Installation](1_SITL_Fundamental.md)
+- [1. SITL Fundamental Components Installation](1_SITL_Fundamantal.md)
 - [2. SITL Extra Components Installation](2_SITL_Extra.md)
 
 **Contents:**
@@ -16,14 +16,18 @@ permalink: /2_SITL_Extra/
 - [MAVROS and MAVLINK Installation](https://github.com/komxun/ardupilot-ros2-sitl/blob/main/2_SITL_Extra.md#mavros-and-mavlink)
 
 > **⚠️ CAUTION**: It is strongly recommended to follow instructions from the **official page** for the most up-to-date information!
+
 ---
+
 # ArduPilot Ignition Gazebo Plugin
 
 > **Official page**: [ArduPilot/ardupilot_gazebo at fortress](https://github.com/ArduPilot/ardupilot_gazebo/tree/fortress)
+
 ## Prerequisites:
 - Ignition Fortress is supported on Ubuntu Bionic, Focal and Jammy. If you are running Ubuntu as a virtual machine you will need at least Ubuntu 20.04 (Focal) in order to have the OpenGL support required for the `ogre2` render engine.
 - Follow the instructions for a [binary install of ignition fortress](https://ignitionrobotics.org/docs/fortress/install) and verify that ignition gazebo is running correctly.
 - Set up an [ArduPilot development environment](https://ardupilot.org/dev/index.html). In the following it is assumed that you are able to run ArduPilot SITL using the [MAVProxy GCS](https://ardupilot.org/mavproxy/index.html).
+
 ## Installation
 Install Ignition Gazebo Fortress development libs and rapidjson:
 ```shell
@@ -59,7 +63,7 @@ Reload your terminal
 source ~/.bashrc
 ```
 
-**Run Gazebo**
+Run Gazebo
 ```shell
 ign gazebo -v 4 -r iris_arducopter_runway.world
 ```
@@ -72,7 +76,9 @@ sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console
 ```
 > **CAUTION**: `--model JSON` to refers to the model run on Gazebo, thus it is very important to **run Gazebo first** before starting the SITL
 ![[Pasted image 20250307102426.png]]
+
 ---
+
 # ROS2 Humble
 
 > **Official page**: [Ubuntu (source) — ROS 2 Documentation: Humble documentation](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html)
@@ -131,6 +137,7 @@ source /opt/ros/humble/setup.bash
 ```
 
 ---
+
 # MAVROS and MAVLINK
 
 > Official page: [mavros/mavros/README.md at ros2 · mavlink/mavros](https://github.com/mavlink/mavros/blob/ros2/mavros/README.md)
