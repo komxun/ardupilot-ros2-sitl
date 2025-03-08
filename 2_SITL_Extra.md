@@ -4,11 +4,8 @@ title: SITL Extra Components Installation
 permalink: /2_SITL_Extra/
 ---
 
-**Navigation**
-- [Home](README.md)
-- [0. Linux Installation](0_Linux_Installation.md)
-- [1. SITL Fundamental Components Installation](1_SITL_Fundamantal.md)
-- [2. SITL Extra Components Installation](2_SITL_Extra.md)
+[Back](README.md) 
+
 
 **Contents:**
 - [Ardupilot Gazebo Plugin Installation](https://github.com/komxun/ardupilot-ros2-sitl/blob/main/2_SITL_Extra.md#ardupilot-ignition-gazebo-plugin)
