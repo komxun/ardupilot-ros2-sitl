@@ -1,3 +1,15 @@
+---
+layout: default
+title: SITL Fundamental Components
+permalink: /1_SITL_Fundamental/
+---
+# Navigation
+- [Home](README.md)
+- [0. Linux Installation](0_Linux_Installation.md)
+- [1. SITL Fundamental Components Installation](1_SITL_Fundamental.md)
+- [2. SITL Extra Components Installation](2_SITL_Extra.md)
+
+
 **Contents:**
 - [[1. SITL Fundamental Components#ArduPilot + MAVProxy Installation|ArduPilot and MAVProxy Installation]]
 - [[1. SITL Fundamental Components#Q-GroundControl Installation|Q-GroundControl Installation]]

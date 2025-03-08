@@ -1,3 +1,15 @@
+---
+layout: default
+title: SITL Extra Components Installation
+permalink: /2_SITL_Extra/
+---
+
+# Navigation
+- [Home](README.md)
+- [0. Linux Installation](0_Linux_Installation.md)
+- [1. SITL Fundamental Components Installation](1_SITL_Fundamental.md)
+- [2. SITL Extra Components Installation](2_SITL_Extra.md)
+
 **Contents:**
 - [[2. SITL Extra Components#ArduPilot Ignition Gazebo Plugin|Ardupilot Gazebo Plugin Installation]]
 - [[2. SITL Extra Components#ROS2 Humble|ROS 2 Humble Installation]]
