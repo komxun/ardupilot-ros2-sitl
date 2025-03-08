@@ -4,7 +4,7 @@ title: SITL Extra Components Installation
 permalink: /2_SITL_Extra/
 ---
 
-# Navigation
+**Navigation**
 - [Home](README.md)
 - [0. Linux Installation](0_Linux_Installation.md)
 - [1. SITL Fundamental Components Installation](1_SITL_Fundamantal.md)
@@ -75,7 +75,9 @@ To run an ArduPilot simulation with Gazebo, **the frame should have** `gazebo-` 
 sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console
 ```
 > **CAUTION**: `--model JSON` to refers to the model run on Gazebo, thus it is very important to **run Gazebo first** before starting the SITL
-![[Pasted image 20250307102426.png]]
+
+![Pasted image 20250307102426](https://github.com/user-attachments/assets/f32a926e-acc2-4593-b20c-e97a05e05f33)
+
 
 ---
 
@@ -141,6 +143,7 @@ source /opt/ros/humble/setup.bash
 # MAVROS and MAVLINK
 
 > Official page: [mavros/mavros/README.md at ros2 · mavlink/mavros](https://github.com/mavlink/mavros/blob/ros2/mavros/README.md)
+
 > **⚠️ CAUTION**: It is recommended to install `mavros` with [source installation](https://github.com/mavlink/mavros/blob/ros2/mavros/README.md#source-installation)
 
 ## Source installation
@@ -223,7 +226,9 @@ Now the `ros2 topic list` can see the `mavlink` messages published from the sitl
 ```shell
 ros2 topic echo /mavros/battery
 ```
-![[Pasted image 20250307104929.png]]
+![Pasted image 20250307104929](https://github.com/user-attachments/assets/e1cbef0d-e5c8-4e05-84ac-75a78acc8dbd)
+
+
 - Terminal 0 (black) : ArduCopter (running)
 - Terminal 1: MAVProxy GCS command prompt (running)
 - Terminal 2: MAVROS (running)
