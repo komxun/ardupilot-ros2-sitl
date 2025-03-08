@@ -1,10 +1,11 @@
 ---
 layout: default
 title: SITL Fundamental Components
+description: [Ardupilot | MAVProxy | Q-GroundControl | Gazebo]
 permalink: /1_SITL_Fundamantal/
 ---
 
-# Navigation
+**Navigation**
 - [Home](README.md)
 - [0. Linux Installation](0_Linux_Installation.md)
 - [1. SITL Fundamental Components Installation](1_SITL_Fundamantal.md)
