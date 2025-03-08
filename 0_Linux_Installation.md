@@ -1,9 +1,9 @@
 ---
-title: Linux Installation
-layout: template
-theme: jekyll-theme-cayman
-filename: 0_Linux_Installation.md
---- 
+layout: page
+title: Linux Installation Guide
+permalink: /0_Linux_Installation/
+---
+
 # Method 1: Virtual Machine (NOT recommended)
 ## VMware Player 
 - Navigate to [broadcom.com](https://www.broadcom.com/).
