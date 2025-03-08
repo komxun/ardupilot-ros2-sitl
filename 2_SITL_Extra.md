@@ -2,7 +2,6 @@
 layout: default
 title: SITL Extra Components Installation
 description: [Ardupilot Gazebo Plugin | ROS 2 Humble | MAVROS and MAVLINK]
-description: [Komsun Tamanakijprasart (komxun@gmail.com)]
 permalink: /2_SITL_Extra/
 ---
 
