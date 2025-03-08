@@ -26,6 +26,7 @@ permalink: /1_SITL_Fundamantal/
 Tutorial for guidance (**⚠️ BUT already outdated**):
 - [02 Installing ArduCopter for Development (SITL) - YouTube](https://www.youtube.com/watch?v=wlkoq65mM2A&list=PLy9nLDKxDN683GqAiJ4IVLquYBod_2oA6&index=2)
 - [Intelligent-Quads GitHub-Installing_Ardupilot_20_04.md](https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/Installing_Ardupilot_20_04.md)
+
 ## Step1: Install `git`
 ```shell
 sudo apt-get update
@@ -51,7 +52,7 @@ Reload profile
 . ~/.profile
 ```
 
-## Step 3: Swap to the latest `Copter` branch version
+## Step 3: Switch to the latest `Copter` branch version
 As of 7 Mar 2025, the latest ArduCopter version is [Copter-4.5](https://github.com/ArduPilot/ardupilot/tree/Copter-4.5)
 ```shell
 git checkout Copter-4.5
@@ -71,7 +72,7 @@ sim_vehicle.py -w
 - **Left**: `MAVProxy` command prompt / **Right**: `ArduCopter` instance
 - With **MAVProxy GCS command prompt**
 	- To open the map: `module load map`
-	- To open the console: `module load console`
+ 	- To open the console: `module load console`
 ---
 
 # Q-GroundControl Installation
