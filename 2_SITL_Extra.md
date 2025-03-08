@@ -83,8 +83,7 @@ sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console
 
 > **Official page**: [Ubuntu (source) — ROS 2 Documentation: Humble documentation](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html)
 
-Tutorial (This is a good one)
-- [Jeremy Pedersen - Installing ROS2](https://jeremypedersen.com/posts/2024-07-17-gazebo-ros-install/#installing-ros2)
+> Tutorial: [Jeremy Pedersen - Installing ROS2](https://jeremypedersen.com/posts/2024-07-17-gazebo-ros-install/#installing-ros2)
 
 ## Installation
 First, we need to fiddle with Ubuntu’s locale settings a little bit. ROS 2 prefers a UTF-8 locale.
