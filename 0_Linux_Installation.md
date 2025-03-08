@@ -4,11 +4,7 @@ title: Linux Installation Guide
 permalink: /0_Linux_Installation/
 ---
 
-# Navigation
-- [Home](README.md)
-- [0. Linux Installation](0_Linux_Installation.md)
-- [1. SITL Fundamental Components Installation](1_SITL_Fundamantal.md)
-- [2. SITL Extra Components Installation](2_SITL_Extra.md)
+- [Back](README.md)
 
 ---
 
@@ -48,3 +44,7 @@ Tutorial: [How to Dual Boot Ubuntu 22.04 LTS and Windows 11 [ 2022 ]](https://ww
 
 ### 2.2: Clean Install of Ubuntu 22.04
 source: [Ubuntu 22.04.5 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/jammy/)
+
+---
+
+- [Back](README.md)
