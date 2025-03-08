@@ -6,6 +6,7 @@ permalink: /2_SITL_Extra/
 
 [Back](README.md) 
 
+---
 
 **Contents:**
 - [Ardupilot Gazebo Plugin Installation](https://github.com/komxun/ardupilot-ros2-sitl/blob/main/2_SITL_Extra.md#ardupilot-ignition-gazebo-plugin)
@@ -225,9 +226,12 @@ ros2 topic echo /mavros/battery
 ```
 ![image](https://github.com/user-attachments/assets/14257bc9-7bc8-417f-b35c-0b9fa69b1f68)
 
-
 - Terminal 0 (black) : ArduCopter (running)
 - Terminal 1: MAVProxy GCS command prompt (running)
 - Terminal 2: MAVROS (running)
 - Terminal 3: List of `mavros`topics (=`mavlink` messages) available on `ros 2` network
 - Terminal 4: Data streaming of `/mavros/battery` topic from the SITL vehicle
+
+---
+
+[Back](README.md) 
