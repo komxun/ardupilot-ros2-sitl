@@ -1,6 +1,7 @@
 ---
 title: Linux Installation
 layout: template
+theme: Cayman
 filename: 0_Linux_Installation.md
 --- 
 # Method 1: Virtual Machine (NOT recommended)
