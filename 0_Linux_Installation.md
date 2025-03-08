@@ -4,7 +4,7 @@ title: Linux Installation Guide
 permalink: /0_Linux_Installation/
 ---
 
-- [Back](README.md)
+[Back](README.md)
 
 ---
 
