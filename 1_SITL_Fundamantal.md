@@ -89,6 +89,7 @@ sudo apt install libxcb-xinerama0 libxkbcommon-x11-0 libxcb-cursor-dev -y
 ```
 
 Then, **Logout and login again** to enable the change to user permissions.
+
 To install _QGroundControl_:
 1. Download [QGroundControl.AppImage](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage).
 2. Install (and run) using the terminal commands:
