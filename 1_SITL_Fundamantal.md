@@ -18,7 +18,9 @@ permalink: /1_SITL_Fundamantal/
 - [Gazebo Installation](https://github.com/komxun/ardupilot-ros2-sitl/blob/main/1_SITL_Fundamantal.md#gazebo-installation)
 
 > **⚠️ CAUTION**: It is strongly recommended to follow instructions from the **official page** for the most up-to-date information!
+
 ---
+
 # ArduPilot + MAVProxy Installation
 
 > **Official page**: [Setting up the Build Environment (Linux/Ubuntu) — Dev documentation](https://ardupilot.org/dev/docs/building-setup-linux.html)
@@ -71,6 +73,7 @@ sim_vehicle.py -w
 	- To open the map: `module load map`
 	- To open the console: `module load console`
 ---
+
 # Q-GroundControl Installation
 
 > **Official page**: https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html#ubuntu
@@ -95,6 +98,7 @@ chmod +x ./QGroundControl.AppImage
 (or double click)
 
 ---
+
 # Gazebo Installation
 
 ## Why Gazebo Fortress?
@@ -105,6 +109,7 @@ chmod +x ./QGroundControl.AppImage
 (Ref: [Installing Gazebo with ROS — Gazebo ionic documentation](https://gazebosim.org/docs/latest/ros_installation/))
 
 ---
+
 ## Gazebo Fortress Installation
 
 > **Official page**: [Binary Installation on Ubuntu — Gazebo fortress documentation](https://gazebosim.org/docs/fortress/install_ubuntu/)
