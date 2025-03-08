@@ -10,10 +10,9 @@ permalink: /1_SITL_Fundamantal/
 ---
 
 **Contents:**
-
-- [ArduPilot and MAVProxy Installation](https://github.com/komxun/ardupilot-ros2-sitl/blob/main/1_SITL_Fundamantal.md#ardupilot--mavproxy-installation)
-- [Q-GroundControl Installation](https://github.com/komxun/ardupilot-ros2-sitl/blob/main/1_SITL_Fundamantal.md#q-groundcontrol-installation)
-- [Gazebo Installation](https://github.com/komxun/ardupilot-ros2-sitl/blob/main/1_SITL_Fundamantal.md#gazebo-installation)
+- ArduPilot and MAVProxy Installation
+- Q-GroundControl Installation
+- Gazebo Installation
 
 > **⚠️ CAUTION**: It is strongly recommended to follow instructions from the **official page** for the most up-to-date information!
 
@@ -73,6 +72,7 @@ sim_vehicle.py -w
 - With **MAVProxy GCS command prompt**
 	- To open the map: `module load map`
  	- To open the console: `module load console`
+
 ---
 
 # Q-GroundControl Installation
