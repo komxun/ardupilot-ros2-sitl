@@ -52,6 +52,8 @@ source: [Ubuntu 22.04.5 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/jammy
 
 ---
 
-**Contact**: [Komsun Tamanakijprasart](https://www.linkedin.com/in/komsun-tamanakijprasart-5a82709b/) | k.tamanakijprasart.263@cranfield.ac.uk
+**Contact**: [Komsun Tamanakijprasart](https://www.linkedin.com/in/komsun-tamanakijprasart-5a82709b/)
+
+k.tamanakijprasart.263@cranfield.ac.uk
 
 [>> Buy me a coffee 🤗☕ << ](https://monzo.me/komsuntamanakijprasart?h=BU-3i8) 
