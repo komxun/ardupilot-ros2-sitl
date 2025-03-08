@@ -10,3 +10,6 @@ description: [by Komsun Tamanakijprasart (komxun@gmail.com)]
 
 ![image](https://github.com/user-attachments/assets/73041222-bc7a-448f-af90-7e40ca289459)
 
+---
+
+**Contact**: [Komsun Tamanakijprasart](https://www.linkedin.com/in/komsun-tamanakijprasart-5a82709b/) | [k.tamanakijprasart.263@cranfield.ac.uk](k.tamanakijprasart.263@cranfield.ac.uk)  
