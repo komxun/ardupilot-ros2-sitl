@@ -138,9 +138,11 @@ sudo apt-get install ignition-fortress
 All libraries should be ready to use and the `ign gazebo` app ready to be executed.
 
 ## Verify if Gazebo is running properly
-[Getting Started with Gazebo? — Gazebo fortress documentation](https://gazebosim.org/docs/fortress/getstarted/)
 
 ```shell
 ign gazebo sim shapes.sdf
 ```
-![[Pasted image 20250307094628.png]]
+![Pasted image 20250307094628](https://github.com/user-attachments/assets/40ecc4ce-3269-415b-9769-d6b81712cff7)
+
+[Getting Started with Gazebo? — Gazebo fortress documentation](https://gazebosim.org/docs/fortress/getstarted/)
+
