@@ -10,6 +10,7 @@ permalink: /0_Linux_Installation/
 
 # Method 1: Dual Boot
 Tutorial: [How to Dual Boot Ubuntu 22.04 LTS and Windows 11 [ 2022 ]](https://www.youtube.com/watch?v=QKn5U2esuRk) 
+
 **Pre-Requisites**:
 - Need a Windows 10 or 11 running on your pc or laptop
 - Need a USB drive (formatted) with > 8 GB to create a bootable disk 
