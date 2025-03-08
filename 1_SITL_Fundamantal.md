@@ -105,6 +105,7 @@ chmod +x ./QGroundControl.AppImage
 
 ## Why Gazebo Fortress?
 - For Ubuntu 22.04, **Gazebo Harmonic** is recommended. However, **Gazebo Fortress** is recommended for the use with **ROS2 Humble**.
+
 ![Pasted image 20250304090430](https://github.com/user-attachments/assets/213beb87-2a91-4b24-b6c8-552cd43edd7d)
 
 (Ref: [Getting Started with Gazebo? — Gazebo ionic documentation](https://gazebosim.org/docs/latest/getstarted/))
