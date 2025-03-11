@@ -91,6 +91,8 @@ Run the bash script:
 
 # ArduPilot SITL with Gazebo and ROS2
 
+MAVROS
+
 
 ---
 
