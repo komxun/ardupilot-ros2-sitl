@@ -20,7 +20,7 @@ This tutorial provides a step-by-step guide to setting up the Software-in-the-Lo
 
 ---
 
-**Webpage version**: [https://komxun.github.io/ardupilot-ros2-sitl/](https://komxun.github.io/ardupilot-ros2-sitl/)
+**Webpage version**: https://komxun.github.io/ardupilot-ros2-sitl/
 
 
 **Contact**: [Komsun Tamanakijprasart](https://www.linkedin.com/in/komsun-tamanakijprasart-5a82709b/) 
