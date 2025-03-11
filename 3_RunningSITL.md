@@ -1,3 +1,14 @@
+---
+layout: default
+title: Running SITL
+description: [Ardupilot | MAVProxy | Gazebo | ROS2]
+permalink: /3_RunningSITL/
+---
+
+[Back](README.md) 
+
+---
+
 # Running SITL
 
 # Basic ArduPilot SITL
@@ -79,6 +90,19 @@ Run the bash script:
 ---
 
 # ArduPilot SITL with Gazebo and ROS2
+
+
+---
+
+[Back](README.md) 
+
+---
+
+**Contact**: [Komsun Tamanakijprasart](https://www.linkedin.com/in/komsun-tamanakijprasart-5a82709b/)
+
+k.tamanakijprasart.263@cranfield.ac.uk
+
+[>> Buy me a coffee 🤗☕ << ](https://monzo.me/komsuntamanakijprasart?h=BU-3i8) 
 
 
 
