@@ -91,7 +91,19 @@ Run the bash script:
 
 # ArduPilot SITL with Gazebo and ROS2
 
-MAVROS
+**Step 1**: Run ArduPilot SITL with/without Gazebo
+
+```shell
+./startsitl_gazebo.sh
+```
+
+**Step 2**: Launch `mavros` with correct ip for the fcu. For example, if sitl and mavros are running on the same machine:
+
+```shell
+ros2 launch mavros apm.launch fcu_url:=udp://localhost:14550@
+```
+
+> Note: Don't forget to `source` the overlay first.
 
 
 ---
