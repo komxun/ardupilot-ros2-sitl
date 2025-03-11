@@ -7,6 +7,7 @@ description: [by Komsun Tamanakijprasart]
 - [0. Linux Installation](0_Linux_Installation.md)
 - [1. SITL Fundamental Components Installation](1_SITL_Fundamantal.md)
 - [2. SITL Extra Components Installation](2_SITL_Extra.md)
+- [3. Running SITL](3_RunningSITL.md)
 
 # About This Guide
 
