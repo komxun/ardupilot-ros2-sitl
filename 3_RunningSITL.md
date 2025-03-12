@@ -66,13 +66,16 @@ nano startsitl_gazebo.sh
 Inside `startsitl_gazebo.sh`:
 
 ```shell
-#!/bin/bash
+!/bin/bash
 
 # Open first terminal and run Ignition Gazebo
-gnome-terminal -- bash -c "ign gazebo -v 4 -r iris_arducopter_runway.world; exec bash"
+gnome-terminal --title="Gazebo Fortress" -- bash -c "ign gazebo -v 4 -r iris_arducopter_runway.world; exec bash"
+
+# Wait a few seconds to ensure Gazebo is initialized
+sleep 2
 
 # Open second terminal and run sim_vehicle.py
-gnome-terminal -- bash -c "sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console; exec bash"
+gnome-terminal --title="MAVProxy" -- bash -c "sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console; exec bash"
 ```
 
 Grant the access to execute the script:
@@ -104,6 +107,30 @@ ros2 launch mavros apm.launch fcu_url:=udp://localhost:14550@
 ```
 
 > Note: Don't forget to `source` the overlay first.
+
+## Bash script to run ArduPilot SITL with Gazebo and ROS2
+
+Script: `startsitl_gazebo_ros2.sh`
+
+```shell
+#!/bin/bash
+
+# Open first terminal for Ignition Gazebo
+gnome-terminal --title="Gazebo Fortress" -- bash -c "ign gazebo -v 4 -r iris_arducopter_runway.world; exec bash"
+
+# Wait a few seconds to ensure Gazebo is initialized
+sleep 2
+
+# Open second terminal for ArduPilot simulation
+gnome-terminal --title="MAVProxy" -- bash -c "sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console; exec bash"
+
+# Wait a few more seconds to ensure ArduPilot is initialized
+sleep 2
+
+# Open third terminal for ROS 2 and MAVROS
+gnome-terminal --title="mavros" -- bash -c "cd ~/ros2_ws; source install/setup.bash; ros2 launch mavros apm.launch fcu_url:=udp://localhost:14550@; exec bash"
+
+```
 
 
 ---
