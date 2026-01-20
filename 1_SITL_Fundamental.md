@@ -148,7 +148,8 @@ ign gazebo sim shapes.sdf
 
 ---
 
-[Back](index.md)
+- [Back](index.md)
+- [Next: SITL Extra Components Installation](1_SITL_Extra.md)
 
 ---
 
