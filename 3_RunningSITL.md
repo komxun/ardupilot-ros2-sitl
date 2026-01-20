@@ -5,7 +5,7 @@ description: [Ardupilot | MAVProxy | Gazebo | ROS2]
 permalink: /3_RunningSITL/
 ---
 
-[Back](README.md) 
+[Back](/)
 
 ---
 
@@ -146,7 +146,7 @@ gnome-terminal --title="mavros" -- bash -c "cd ~/ros2_ws; source install/setup.b
 
 ---
 
-[Back](README.md) 
+[Back](/)
 
 ---
 
