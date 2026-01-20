@@ -4,7 +4,7 @@ title: Linux Installation Guide
 
 ---
 
-[Back](README.md)
+[Back](index.md)
 
 ---
 
@@ -48,7 +48,7 @@ source: [Ubuntu 22.04.5 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/jammy
 
 ---
 
-- [Back](README.md)
+- [Back](index.md)
 
 ---
 
