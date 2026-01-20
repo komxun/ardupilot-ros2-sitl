@@ -2,10 +2,10 @@
 layout: default
 title: SITL Fundamental Components
 description: [Ardupilot | MAVProxy | Q-GroundControl | Gazebo]
-permalink: /1_SITL_Fundamantal/
+permalink: /1_SITL_Fundamental/
 ---
 
-[Back](/index.html)
+[Back](/)
 
 ---
 
@@ -148,7 +148,7 @@ ign gazebo sim shapes.sdf
 
 ---
 
-[Back](/index.html)
+[Back](/)
 
 ---
 
