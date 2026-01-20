@@ -1,6 +1,7 @@
 ---
 title: ArduPilot Software in the Loop (SITL) with ROS2
 description: [by Komsun Tamanakijprasart]
+permalink: /index/
 ---
 
 # Content
