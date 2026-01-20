@@ -5,7 +5,7 @@ description: [Ardupilot | MAVProxy | Q-GroundControl | Gazebo]
 permalink: /1_SITL_Fundamental/
 ---
 
-[Back](index.md)
+[Back to Home](index.md)
 
 ---
 
@@ -148,7 +148,7 @@ ign gazebo sim shapes.sdf
 
 ---
 
-- [Back](index.md)
+- [Back to Home](index.md)
 - [Next: SITL Extra Components Installation](1_SITL_Extra.md)
 
 ---
