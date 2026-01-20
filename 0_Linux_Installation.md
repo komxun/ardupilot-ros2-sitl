@@ -4,7 +4,7 @@ title: Linux Installation Guide
 
 ---
 
-- [Back](/)
+[Back](index.md)
 
 ---
 
@@ -48,8 +48,8 @@ source: [Ubuntu 22.04.5 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/jammy
 
 ---
 
-- [Back](/)
-
+- [Back](index.md)
+- [Next: SITL Fundamental Components Installation](1_SITL_Fundamental.md)
 ---
 
 **Contact**: [Komsun Tamanakijprasart](https://www.linkedin.com/in/komsun-tamanakijprasart-5a82709b/)
