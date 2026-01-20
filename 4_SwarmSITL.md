@@ -5,7 +5,7 @@ description: [Ardupilot | MAVProxy | Gazebo | ROS2]
 permalink: /4_SwarmSITL/
 ---
 
-[Back](/)
+[Back](index.md)
 
 ---
 
@@ -61,7 +61,7 @@ module load swarm
 
 ---
 
-[Back](/)
+[Back](index.md)
 
 ---
 
