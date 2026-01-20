@@ -5,7 +5,7 @@ description: [Ardupilot Gazebo Plugin | ROS 2 Humble | MAVROS and MAVLINK]
 permalink: /2_SITL_Extra/
 ---
 
-[Back](README.md) 
+[Back](/)
 
 ---
 
@@ -235,7 +235,7 @@ ros2 topic echo /mavros/battery
 
 ---
 
-[Back](README.md) 
+[Back](/)
 
 ---
 
