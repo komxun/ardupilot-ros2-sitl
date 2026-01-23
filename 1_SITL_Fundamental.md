@@ -103,7 +103,7 @@ chmod +x ./QGroundControl.AppImage
 
 # Gazebo Installation
 ## Why Gazebo Harmonic? (Updated 2026)
-The current stable version of MAVROS (main branch) is fully compatible with Gazebo Harmonic. If you plan to use ROS2 with ArduPilot via MAVROS, Harmonic provides the most reliable and actively supported setup.
+The current stable version of [Ardupilot Gazebo Plugin](https://github.com/ArduPilot/ardupilot_gazebo) (main branch) is fully compatible with Gazebo Harmonic. If you plan to use ArduPilot SITL, Harmonic provides the most reliable and actively supported setup.
 
 First install some necessary tools:
 ```shell
@@ -134,7 +134,7 @@ gz sim shapes.sdf
 
 
 ## Why Gazebo Fortress? (⚠️No longer recommended with ROS2 + ArduPilot + MAVROS)
-⚠️ Gazebo Fortress is no longer recommended when using ROS2 and ArduPilot through MAVROS, as MAVROS's Fortress branch is unstable and lacks ongoing support.
+⚠️ Gazebo Fortress is no longer recommended with ArduPilot SITL, as [Ardupilot Gazebo Plugin](https://github.com/ArduPilot/ardupilot_gazebo)'s Fortress branch is unstable and lacks ongoing support.
 
 - For Ubuntu 22.04, **Gazebo Harmonic** is recommended. However, **Gazebo Fortress** is recommended for the use with **ROS2 Humble**.
 
