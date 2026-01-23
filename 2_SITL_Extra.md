@@ -19,55 +19,57 @@ permalink: /2_SITL_Extra/
 
 ---
 
-# ArduPilot Ignition Gazebo Plugin
+# ArduPilot Gazebo Harmonic Plugin (🟢Updated 2026)
+> **Official page**: [ArduPilot Gazebo Plugin (main branch)](https://github.com/ArduPilot/ardupilot_gazebo)
 
-> **Official page**: [ArduPilot/ardupilot_gazebo at fortress](https://github.com/ArduPilot/ardupilot_gazebo/tree/fortress)
+## Prerequisites
+Gazebo Garden or Harmonic is supported on Ubuntu 22.04 (Jammy). Harmonic is recommended. If you are running Ubuntu as a virtual machine you will need at least Ubuntu 20.04 in order to have the OpenGL support required for the ogre2 render engine. Gazebo and ArduPilot SITL will also run on macOS (Big Sur, Monterey and Venturua; Intel and M1 devices).
 
-## Prerequisites:
-- Ignition Fortress is supported on Ubuntu Bionic, Focal and Jammy. If you are running Ubuntu as a virtual machine you will need at least Ubuntu 20.04 (Focal) in order to have the OpenGL support required for the `ogre2` render engine.
-- Follow the instructions for a [binary install of ignition fortress](https://ignitionrobotics.org/docs/fortress/install) and verify that ignition gazebo is running correctly.
-- Set up an [ArduPilot development environment](https://ardupilot.org/dev/index.html). In the following it is assumed that you are able to run ArduPilot SITL using the [MAVProxy GCS](https://ardupilot.org/mavproxy/index.html).
+Follow the instructions for a binary install of Gazebo Garden or Gazebo Harmonic or Gazebo Ionic and verify that Gazebo is running correctly.
+
+Set up an ArduPilot development environment. In the following it is assumed that you are able to run ArduPilot SITL using the MAVProxy GCS.
 
 ## Installation
-Install Ignition Gazebo Fortress development libs and rapidjson:
+STEP 1: Install Gazebo Harmonic development libs and rapidjson:
 ```shell
-sudo apt install rapidjson-dev libignition-gazebo6-dev
+sudo apt update
+sudo apt install libgz-sim8-dev rapidjson-dev
+sudo apt install libopencv-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl
 ```
-Clone the repo (at root) and build with:
+STEP 2: Clone the repo (at root) and build with:
 ```shell
 cd ~
-git clone https://github.com/ArduPilot/ardupilot_gazebo -b ignition-fortress
+git clone https://github.com/ArduPilot/ardupilot_gazebo
 cd ardupilot_gazebo
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo
 make -j4
 ```
 
-## Running
-Set the ignition environment variables in your `.bashrc` or `.zshrc` or in the terminal used to run gazebo:
-Assuming that you have clone the repository in `$HOME/ardupilot_gazebo`:
+STEP 3: Set the Gazebo environment variables in your `.bashrc` (Window) or `.zshrc` (macOS) or in the terminal used to run Gazebo. 
 ```shell
-export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=$HOME/ardupilot_gazebo/build:$IGN_GAZEBO_SYSTEM_PLUGIN_PATH
-export IGN_GAZEBO_RESOURCE_PATH=$HOME/ardupilot_gazebo/models:$HOME/ardupilot_gazebo/worlds:IGN_GAZEBO_RESOURCE_PATH
+export GZ_SIM_SYSTEM_PLUGIN_PATH=$HOME/ardupilot_gazebo/build:$GZ_SIM_SYSTEM_PLUGIN_PATH
+export GZ_SIM_RESOURCE_PATH=$HOME/ardupilot_gazebo/models:$HOME/ardupilot_gazebo/worlds:$GZ_SIM_RESOURCE_PATH
 ```
 
 Edit the `.bashrc` so you don't have to run the `export` commands every time 
 (this is down through the following command lines, you can modify it later with `nano ~/.bashrc`)
 ```shell
-echo 'export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=$HOME/ardupilot_gazebo/build:${IGN_GAZEBO_SYSTEM_PLUGIN_PATH}' >> ~/.bashrc
-echo 'export IGN_GAZEBO_RESOURCE_PATH=$HOME/ardupilot_gazebo/models:$HOME/ardupilot_gazebo/worlds:${IGN_GAZEBO_RESOURCE_PATH}' >> ~/.bashrc
+echo 'export GZ_SIM_SYSTEM_PLUGIN_PATH=$HOME/ardupilot_gazebo/build:${GZ_SIM_SYSTEM_PLUGIN_PATH}' >> ~/.bashrc
+echo 'export GZ_SIM_RESOURCE_PATH=$HOME/ardupilot_gazebo/models:$HOME/ardupilot_gazebo/worlds:${GZ_SIM_RESOURCE_PATH}' >> ~/.bashrc
 ```
-
 Reload your terminal
 ```shell
 source ~/.bashrc
 ```
 
-Run Gazebo
+STEP 4: Run Gazebo
 ```shell
-ign gazebo -v 4 -r iris_arducopter_runway.world
+gz sim -v4 -r iris_runway.sdf
 ```
 The `-v 4` parameter is not mandatory, it shows the debug information.
+
+---
 
 ## Run ArduPilot SITL
 To run an ArduPilot simulation with Gazebo, **the frame should have** `gazebo-` in it and **have JSON as model**. Other command line parameters are the same as usual on SITL.
