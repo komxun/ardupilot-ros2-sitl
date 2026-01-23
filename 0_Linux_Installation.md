@@ -9,7 +9,11 @@ title: Linux Installation Guide
 ---
 
 # Method 1: Dual Boot
-Tutorial: [How to Dual Boot Ubuntu 22.04 LTS and Windows 11 [ 2022 ]](https://www.youtube.com/watch?v=QKn5U2esuRk) 
+Tutorial: 
+- [How to Dual Boot Ubuntu 22.04 LTS and Windows 11 2022](https://www.youtube.com/watch?v=QKn5U2esuRk)
+  > If you’re following this tutorial, I recommend choosing “Install Ubuntu alongside Windows Boot Manager” rather than “Something else.”
+- [How to Dual Boot Ubuntu and Windows 11 2025](https://youtu.be/UUh6v08UPlc?si=fW07ZQB9gR3XQs_A)
+
 
 **Pre-Requisites**:
 - Need a Windows 10 or 11 running on your pc or laptop
