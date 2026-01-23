@@ -34,6 +34,7 @@ sim_vehicle.py -v ArduCopter --map --console
 
 # ArduPilot SITL with Gazebo
 > (🟢Updated 2026)
+
 ![image](https://github.com/user-attachments/assets/b87ede34-59fa-4751-8afa-343a7f73f52a)
 
 
@@ -62,6 +63,7 @@ Check the ArduCopter terminal if the it reads the JSON model succesfully:
 
 ## Bash script to run ArduPilot SITL with Gazebo
 > (🟢Updated 2026)
+
 To run both commands in separate terminal windows from a single Bash script, you can use gnome-terminal.
 First, create the bash script:
 
