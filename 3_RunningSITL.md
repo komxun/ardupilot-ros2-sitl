@@ -17,6 +17,7 @@ permalink: /3_RunningSITL/
 ---
 
 # Basic ArduPilot SITL
+> (🟢Updated 2026)
 
 ![image](https://github.com/user-attachments/assets/5bd17850-e183-42a2-982f-de2596bbfc99)
 
@@ -32,7 +33,7 @@ sim_vehicle.py -v ArduCopter --map --console
 ---
 
 # ArduPilot SITL with Gazebo
-
+> (🟢Updated 2026)
 ![image](https://github.com/user-attachments/assets/b87ede34-59fa-4751-8afa-343a7f73f52a)
 
 
@@ -60,6 +61,7 @@ Check the ArduCopter terminal if the it reads the JSON model succesfully:
 > **Step 3** (optional): Run Q-GroundControl
 
 ## Bash script to run ArduPilot SITL with Gazebo
+> (🟢Updated 2026)
 To run both commands in separate terminal windows from a single Bash script, you can use gnome-terminal.
 First, create the bash script:
 
@@ -98,6 +100,7 @@ Run the bash script:
 ---
 
 # ArduPilot SITL with Gazebo and ROS2
+> (🟢Updated 2026)
 
 **Step 1**: Run ArduPilot SITL with/without Gazebo
 
