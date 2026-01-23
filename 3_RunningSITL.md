@@ -24,7 +24,7 @@ permalink: /3_RunningSITL/
 **Step 1**: Run ArduPilot + MAVProxy SITL
 
 ```shell
-sim_vehicle.py -v ArduCopter --map --consol
+sim_vehicle.py -v ArduCopter --map --console
 ```
 
 > **Step 2** (optional): Run Q-GroundControl
@@ -39,16 +39,16 @@ sim_vehicle.py -v ArduCopter --map --consol
 **Step 1**: Launch Gazebo with Iris drone
 
 ```shell
-ign gazebo -v 4 -r iris_arducopter_runway.world
+gz sim -v4 -r iris_runway.sdf
 ```
 > Note:
-> `-v 4` → Sets the verbosity level to 4 (higher verbosity provides more detailed logging).
+> `-v4` → Sets the verbosity level to 4 (higher verbosity provides more detailed logging).
 > `-r` → Runs the simulation immediately after loading the world file. Without `-r`, the world would load in a paused state.
 
 **Step 2**: Run ArduPilot + MAVProxy SITL with `-f gazebo-iris` and `--model JSON`
 
 ```shell
-sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --consol
+sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console
 ```
 
 Check the ArduCopter terminal if the it reads the JSON model succesfully:
@@ -73,8 +73,8 @@ Inside `startsitl_gazebo.sh`:
 ```shell
 !/bin/bash
 
-# Open first terminal and run Ignition Gazebo
-gnome-terminal --title="Gazebo Fortress" -- bash -c "ign gazebo -v 4 -r iris_arducopter_runway.world; exec bash"
+# Open first terminal and run Gazebo Harmonic
+gnome-terminal --title="Gazebo Harmonic" -- bash -c "gz sim -v4 -r iris_arducopter_runway.world; exec bash"
 
 # Wait a few seconds to ensure Gazebo is initialized
 sleep 2
@@ -124,8 +124,8 @@ Script: `startsitl_gazebo_ros2.sh`
 ```shell
 #!/bin/bash
 
-# Open first terminal for Ignition Gazebo
-gnome-terminal --title="Gazebo Fortress" -- bash -c "ign gazebo -v 4 -r iris_arducopter_runway.world; exec bash"
+# Open first terminal for Harmonic Gazebo
+gnome-terminal --title="Gazebo Harmonic" -- bash -c "gz sim -v4 -r iris_arducopter_runway.world; exec bash"
 
 # Wait a few seconds to ensure Gazebo is initialized
 sleep 2
