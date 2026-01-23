@@ -37,6 +37,7 @@ sudo apt install libgz-sim8-dev rapidjson-dev
 sudo apt install libopencv-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl
 ```
 STEP 2: Clone the repo (at root) and build with:
+> **⚠️ Make sure you select the [main branch](https://github.com/ArduPilot/ardupilot_gazebo)**:
 ```shell
 cd ~
 git clone https://github.com/ArduPilot/ardupilot_gazebo
