@@ -102,8 +102,40 @@ chmod +x ./QGroundControl.AppImage
 ---
 
 # Gazebo Installation
+## Why Gazebo Harmonic? (Updated 2026)
+The current stable version of MAVROS (main branch) is fully compatible with Gazebo Harmonic. If you plan to use ROS2 with ArduPilot via MAVROS, Harmonic provides the most reliable and actively supported setup.
 
-## Why Gazebo Fortress?
+First install some necessary tools:
+```shell
+sudo apt-get update
+sudo apt-get install curl lsb-release gnupg
+```
+
+Then install Gazebo Harmonic:
+```shell
+sudo curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] https://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
+sudo apt-get update
+sudo apt-get install gz-harmonic
+```
+
+All libraries should be ready to use and the `gz sim` app ready to be executed.
+
+## Verify if Gazebo Harmonic is running properly
+
+```shell
+gz sim shapes.sdf
+```
+
+---
+
+## Gazebo Fortress Installation
+> **Official page**: [Binary Installation on Ubuntu — Gazebo Harmonic documentation](https://gazebosim.org/docs/harmonic/install_ubuntu/)
+
+
+## Why Gazebo Fortress? (⚠️No longer recommended with ROS2 + ArduPilot + MAVROS)
+⚠️ Gazebo Fortress is no longer recommended when using ROS2 and ArduPilot through MAVROS, as MAVROS's Fortress branch is unstable and lacks ongoing support.
+
 - For Ubuntu 22.04, **Gazebo Harmonic** is recommended. However, **Gazebo Fortress** is recommended for the use with **ROS2 Humble**.
 
 ![Pasted image 20250304090430](https://github.com/user-attachments/assets/213beb87-2a91-4b24-b6c8-552cd43edd7d)
@@ -137,7 +169,7 @@ sudo apt-get install ignition-fortress
 
 All libraries should be ready to use and the `ign gazebo` app ready to be executed.
 
-## Verify if Gazebo is running properly
+## Verify if Gazebo Fortress is running properly
 
 ```shell
 ign gazebo sim shapes.sdf
