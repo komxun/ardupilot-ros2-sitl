@@ -75,16 +75,21 @@ nano startsitl_gazebo.sh
 Inside `startsitl_gazebo.sh`:
 
 ```shell
-!/bin/bash
+#!/bin/bash
 
-# Open first terminal and run Gazebo Harmonic
-gnome-terminal --title="Gazebo Harmonic" -- bash -c "gz sim -v4 -r iris_arducopter_runway.world; exec bash"
-
+# Open the first terminal and run Gazebo Harmonic
+gnome-terminal \
+  --tab --title="Gazebo Harmonic" -- bash -c \
+  "gz sim -v4 -r iris_runway.sdf; exec bash" \
+  
 # Wait a few seconds to ensure Gazebo is initialized
 sleep 2
 
-# Open second terminal and run sim_vehicle.py
-gnome-terminal --title="MAVProxy" -- bash -c "sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console; exec bash"
+# Open the second terminal and run sim_vehicle.py
+gnome-terminal \
+  --tab --title="MAVProxy" -- bash -c \
+  "sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --map --console; exec bash"
+
 ```
 
 Grant the access to execute the script:
